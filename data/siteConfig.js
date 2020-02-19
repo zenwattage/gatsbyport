@@ -1,18 +1,18 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Scott!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Hi! I\'m Scott Hansford',
+  siteDescription: `Web Dev Portfolio`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Scott Hansford',
   githubUsername: 'zenwattage',
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `Designer & Developer. My beginning as a ,'Web Designer' was making Geocities pages for various hobbies and interests in high school. <br />
-    In 2013 I started working as a support technician for REI and was quickly promoted due to being able to adapt and learn technologies quickly. Though that position was temporary I highly enjoyed the process of collaborating with product experts to solve customer issues with technology.
+    In 2013 I started working in online customer service for REI and was quickly promoted to Technical Support Specialist due to being able to adapt and learn technologies quickly. In that position I highly enjoyed collaborating with product experts to efficiently and quickly coordinate solutions for customer issues.
     In 2016, I began taking Computer Science courses and have completed CS courses Programming I & II, in Python, Java, SQL and Web Authoring(HTML,CSS/JS). I recently completed a 24 week Full Stack Web Development Certificate through the University of Washington.<br />
-    I currently working freelance while pursuing a position as a full-time frontend developer and mainly work with <strong>Javascript, NodeJS, React</strong> and am currently learning <strong>Gatsby</strong>`,
+    I am currently working freelance while pursuing a position as a full-time frontend developer and mainly work with <strong>Javascript, NodeJS, React</strong> and am currently learning <strong>Gatsby</strong>(Which I used to make what you are looking at.)`,
   skills: [
     {
       name: 'HTML',
-      level: 90
+      level: 100
     },
     {
       name: 'CSS',
@@ -20,11 +20,11 @@ module.exports = {
     },
     {
       name: 'Javascript',
-      level: 95
+      level: 97
     },
     {
       name: 'NodeJs',
-      level: 65
+      level: 85
     },
     {
       name: 'React',
@@ -37,6 +37,10 @@ module.exports = {
     {
       name: 'Adobe Creative Suite',
       level: 100
+    },
+    {
+      name: 'Gatsby.js',
+      level: 70
     }
   ],
   jobs: [
@@ -50,24 +54,26 @@ module.exports = {
       occupation: "Web Design and Graphic Design",
       description: "Freelance: Brand, Product, and Web Designer"
 
-    }, {
-      company: "Anapro",
+    },
+    {
+      company: "University of Washington",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'Aug',
+        year: '2019'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: '6 mos',
+      occupation: "Full stack Web Development",
+      description: "Rigorous 24 week MERN stack certification course"
+
     }, {
-      company: "Anapro",
+      company: "REI",
       begin: {
-        month: 'set',
+        month: 'Aug',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
+      duration: '6 mo contract',
       occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "Demonstrated a passion for problem solving and the ability to apply service and sales skills to enhance the customer/member relationships by utilizing empathy when resolving difficult customer situations."
 
     },
     /* ... */
@@ -77,18 +83,19 @@ module.exports = {
     github: "https://github.com/zenwattage",
     email: "scott.hansford1775@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://github.com/zenwattage/zenwattage.github.io',
+  pathPrefix: '/zenwattage.github.io', // Note: it must *not* have a trailing slash.
   siteCover: '/images/rocksdark.png',
   googleAnalyticsId: 'UA-154777602-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/shicon.png',
   headerLinks: [
     {
       label: 'Scott Hansford',
       url: '/',
+      icon: 'src/assets/shicon.png'
     }
   ]
 }
